@@ -20,6 +20,7 @@ ENV MQTT_BROKER_PORT=your-mqtt-broker-port
 ENV MQTT_BROKER_USERNAME=your-mqtt-broker-username
 ENV MQTT_BROKER_PASSWORD=your-mqtt-broker-password
 ENV MQTT_DISCOVERY_INTERVAL=10
+ENV DEVICE_NAME=laptop
 
 # Run the application
 CMD ["python", "linuxlaptopstats2mqtt.py"]

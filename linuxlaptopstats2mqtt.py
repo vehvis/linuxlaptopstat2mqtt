@@ -6,7 +6,7 @@ import os
 
 # Set the MQTT topic prefix and device name
 TOPIC_PREFIX = "homeassistant/sensor"
-DEVICE_NAME = "laptop"
+DEVICE_NAME = os.environ.get("DEVICE_NAME")
 
 # Create the MQTT client
 client = mqtt.Client()
